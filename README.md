@@ -15,7 +15,6 @@ Think of it as the **"Gnosis Safe of Stellar"** — built for DAOs, Enterprise T
 ## 🛡️ Features
 
 | Feature | Description |
-|Type|Description|
 |---|---|
 | **Multi-Signature** | **M-of-N** signing logic enforced on-chain. Requires cryptographic proof from multiple treasurers. |
 | **RBAC** | Granular **Role-Based Access Control** (Admin, Treasurer, Member) defining exact permissions. |
