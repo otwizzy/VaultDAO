@@ -1,0 +1,23 @@
+{
+    "name": "vaultdao-sdk",
+    "version": "0.1.0",
+    "description": "TypeScript SDK for VaultDAO Soroban Contract",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "bindings": "stellar contract bindings typescript --wasm ../contracts/vault/target/wasm32-unknown-unknown/release/vault_dao.wasm --id <CONTRACT_ID> --network testnet --output-dir src/bindings"
+    },
+    "keywords": [
+        "stellar",
+        "soroban",
+        "sdk",
+        "vaultdao"
+    ],
+    "author": "Otowo Samuel",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "stellar-sdk": "^11.0.0"
+    }
+}
